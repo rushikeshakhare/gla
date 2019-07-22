@@ -1,0 +1,107 @@
+body
+    {
+        margin:0;
+        padding: 0;
+        background: #1e88e5;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    @media only screen and (max-width: 768px) {
+        .loginCard
+        {
+            width:90%;
+        }
+      }
+
+      @media only screen and (min-width: 768px) {
+        .loginCard
+        {
+            width:30%;
+        }
+      }
+    .loginCard
+    {
+        margin:auto;
+        text-align: center;
+        margin-top:8%;
+        
+        border-radius: 3px;
+    }
+    
+    .loginCard .card-img
+    {
+        height:100px;
+        
+    }
+    .loginCard .card-img img
+    {
+        width:100%;
+        height:100%;
+        opacity:0.7;
+    }
+    .loginCard .card-header
+    {
+        font-size:20px;
+        background: #eeeeee;
+        padding:0.1px;
+        color:#616161;
+    }
+    .loginCard .card-body
+    {
+        padding:20px;
+        background: white;    
+    }
+    .loginCard .card-body h4
+    {
+        font-size:25px;
+        
+    }
+    .form-group
+    {
+        margin-bottom:20px;
+    }
+  
+    .userIcon
+    {
+        height:17px;
+        margin-top:2px;
+    }
+    .input-group{
+        margin:auto;
+        display: table;
+        border-collapse: separate;
+        width:80%;
+        
+        }
+        .input-group > div{
+        display: table-cell;
+        border: 1px solid #ddd;
+      
+        }
+        .input-group-icon{
+        background:#eee;
+        color: #777;
+        padding: 10px;
+        }
+        .input-group-area{
+        width:100%;
+        }
+        .input-group input{
+        border: 0;
+        display: block;
+        border-radius: 5px !important;
+        padding: 12px;font-size:16px;
+        outline: none;
+        }
+        .signInButton
+        {
+            margin-top:10px;
+            margin-bottom:40px;
+            width:80%;
+            padding:10px;
+            background: #ffca28;
+            font-size:18px;
+            border:0;
+            border-radius: 30px;
+            outline: none;
+            cursor: pointer;
+        }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GLP Learning Model Builder | Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/toast.css">
+</head>
+<body>
+    <div id="alertBox" class="alertBox"></div>
+    <nav>
+        <ul>
+            <a href="index.html"> 
+                <li>
+                   Logout
+                </li>
+            </a>
+        </ul>
+    </nav>
+    <div class="content">
+        <h4>Filters <span style="float:right;">Search</span> </h4>
+        <br>
+        <div class="filterSection">
+            <select name="country" id="country">
+                <option value="">Select Country</option>
+            </select>
+            <select name="state" id="state">
+                    <option value="">Select State</option>
+            </select>
+            <select name="city" id="city">
+                    <option value="">Select City</option>
+            </select>
+            <button type="button" id="applyFilters">Apply</button>
+            <button type="button" id="resetButton">Reset</button>
+            <div style="float: right;">
+                
+                <input type="text" id="searchQuery">
+                <button type="button" id="searchButton">Search</button>
+            </div>
+        </div>
+        <hr>
+        <div class="tableContainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>City</th>
+                        <th>Phone</th>
+                        <th>State</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>ID</th>
+                        <th>City</th>
+                        <th>Phone</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        </tr>
+                </tfoot>
+                <tbody id="tableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/toast.js"></script>
+    <script src="js/data.js"></script>    
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

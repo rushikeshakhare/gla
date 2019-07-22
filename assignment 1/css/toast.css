@@ -1,0 +1,57 @@
+.alertBox
+        {
+            position: fixed;
+            top:20px;
+            right:20px;
+            width:300px;
+            background: #ff5722;
+            padding:20px;
+            border-radius: 10px;
+            color:white;
+            font-size: 20px;
+            visibility: hidden;
+        }
+        .hidden
+        {
+            visibility: hidden !important;
+        }
+        .visible
+        {
+            visibility: visible !important;
+        }
+        .alertEntry
+        {
+            animation-name: alertEntry;
+            animation-duration:300ms;
+            animation-iteration-count: initial;
+        
+        }
+        .alertExit
+        {
+            animation-name: alertExit;
+            animation-duration:300ms;
+            animation-iteration-count: initial;
+           
+        }
+        @keyframes alertEntry
+        {
+            0%
+            {
+                right:-500px;
+            }
+            100%
+            {
+                right:20px;
+            }
+        }
+        @keyframes alertExit
+        {
+            0%
+            {
+                right:20px;
+            }
+            100%
+            {
+                right:-500px;
+            }
+        }

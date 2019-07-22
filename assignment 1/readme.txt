@@ -1,0 +1,24 @@
+IN THIS ASSIGNMENT AS PER GIVEN REQUIREMENT FOLLOWING THINGS ARE IMPLEMENTED
+
+1.LOGIN PAGE WITH VALIDATION (DUMMY LOGIN DONE VIA USER OBJECT)
+	CREDENTIALS AVAILABLE AS USERNAME : admin PASSWORD : admin
+				 USERNAME : user PASSWORD : user
+
+2. DASHBOARD WITH TABLE LOADING THE JSON DATA 
+
+3. LOGOUT BUTTON WHICH WILL TAKE YOU BACK TO LOGIN
+
+4. FILTERS WITH CONTRY , CITY AND STATE SELECTION
+
+------------------------------------------------
+
+ADDON 
+
+5 . OVERALL SEARCH FUNCTIONALITY (INDEPENDENT OF FILTERS)
+
+
+------------------------------------------------
+
+CREDITS - Rushikesh Akhare - rushikesh.akhare@globallogic.com
+
+This information is only shared with the mentors for now.
